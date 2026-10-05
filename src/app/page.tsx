@@ -4,7 +4,7 @@ import styles from "./page.module.css";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div className={`flex flex-col md:grid lg:grid lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-12 items-center text-center lg:text-left ${styles.container}`}>
       <div className={styles.item}> 
         <h1 className ={styles.title}>
           Better design for your digital products.</h1>

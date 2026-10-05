@@ -1,7 +1,7 @@
-import React from 'react'
+import type { ReactNode } from 'react'
 import styles from './page.module.css'
 
-const Layout = ({children}) => {
+const Layout = ({ children }: { children: ReactNode }) => {
   return (
     <div>
       <h1 className={styles.mainTitle}>Our Works</h1>
