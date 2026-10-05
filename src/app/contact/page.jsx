@@ -3,10 +3,10 @@ import styles from "./page.module.css";
 import Image from "next/image";
 import Button from "@/components/button/button";
 
-// export const metadata = {
-//   title: "Lama Dev Contact Information",
-//   description: "This is Contact Page",
-// };
+export const metadata = {
+  title: "Blog Contact page",
+  description: "This is Contact Page",
+};
 
 const Contact = () => {
   return (

@@ -1,3 +1,8 @@
+.wrapper {
+    position: relative;
+    z-index: 50;
+}
+
 .container{
     height:100px;
     display: flex;
@@ -20,6 +25,33 @@
     padding: 0;
 }
 
+.mobileNav {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 100vw;
+    transform: translateX(-50%);
+    border-top: 1px solid #334155;
+    background-color: #000;
+    color: #fff;
+    font-family: monospace;
+    z-index: 50;
+}
+
+.mobileNavInner {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 12px 20px 20px;
+}
+
+.mobileLink {
+    display: flex;
+    min-height: 44px;
+    align-items: center;
+    font-size: 16px;
+}
+
 .logout{
     padding: 5px;
     border:none;
@@ -27,6 +59,12 @@
     background-color: #53c28b;
     color: #ffffff;
     border-radius: 3px;
+}
+
+@media (max-width: 767px) {
+    .container {
+        height: 72px;
+    }
 }
 
 
