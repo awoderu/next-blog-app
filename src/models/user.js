@@ -1,7 +1,9 @@
-import mongoose from "mongoose";
+import mongoose from "mongoose"; // import mongo db module
 
-const { Schema } = mongoose;
+const { Schema } = mongoose; // initialize mongo db schema
 
+
+// create db schema structure for user data
 const userSchema = new Schema(
   {
     name: {

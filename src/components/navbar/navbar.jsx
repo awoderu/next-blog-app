@@ -48,7 +48,7 @@ const Navbar = () => {
     <div className={styles.wrapper}>
       <div className={styles.container}>
         <Link href="/" className={styles.logo}>
-          lamamia
+          CrystalCorp
         </Link>
         <div className="flex items-center gap-5">
           <DarkModeToggle />
@@ -67,7 +67,7 @@ const Navbar = () => {
             </div>
           </nav>
           <button
-            className="p-2 text-black hover:text-white md:hidden"
+            className="p-6 text-black hover:text-white md:hidden"
             onClick={() => setMobileMenuIsOpen((open) => !open)}
             type="button"
             aria-label={mobileMenuIsOpen ? "Close menu" : "Open menu"}

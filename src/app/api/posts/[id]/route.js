@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import connect from "@/utils/db";
+import connect from "@/utils/db"; // import db environment
 import Post from "@/models/post";
 
 export const GET = async (request, { params }) => {

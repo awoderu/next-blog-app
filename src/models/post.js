@@ -1,7 +1,10 @@
-import mongoose from "mongoose";
+import mongoose from "mongoose"; // import mongo db module
 
-const { Schema } = mongoose;
+const { Schema } = mongoose; // initialize mongo db schema function
 
+
+
+// db schema structure for content on the post page
 const postSchema = new Schema(
   {
     title: {
